@@ -1,0 +1,35 @@
+"QUIZ TIMER"
+
+This Java program is a console-based quiz application that asks the user a series of questions, collects their answers, and calculates their score based on correct responses.
+
+Key Features :
+Question Management:
+
+Stores questions, answer options, and correct answers in a list.
+Uses a nested Question class to represent each question.
+
+Quiz Flow:
+
+Adds predefined questions to the quiz.
+Presents each question to the user, collects and checks their answer, updates the score, and moves to the next question.
+Recursively continues until all questions are answered.
+
+User Interaction:
+
+Displays questions and options.
+Prompts the user for their answer and validates it.
+Result Display:
+
+Shows the final score and a completion message at the end of the quiz.
+
+Implementation Details :
+
+Classes:
+
+QuizTimer: Manages quiz flow, user interaction, and score calculation.
+Question: Nested class within QuizTimer to represent a question.
+Methods:
+
+addQuestions(): Adds predefined questions.
+startQuiz(): Initiates and manages the quiz flow.
+hasMoreQuestions(), getCurrentQuestion(), displayQuestion(), getUserAnswer(), checkAnswer(), incrementCurrentQuestion(), displayResult(): Handle quiz operations.
