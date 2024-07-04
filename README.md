@@ -1,5 +1,4 @@
-
-Student Grade Calculator
+"Student Grade Calculator"
 
 This Java program is designed to calculate the average percentage and final grade for a student based on their marks in multiple subjects. The program uses a console-based interface for input and output.
 
